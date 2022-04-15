@@ -1,0 +1,21 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card-list__select{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 4px 8px;
+    font-size: 16px;
+    border: 2px solid #3a8ac0;
+    border-radius: 10px;
+}
+.card-list__select:focus{
+    outline: 2px solid #3a8ac0; ;
+}
+
+@media screen and (max-width: 1100px) {
+
+}
